@@ -1,8 +1,7 @@
-# PHP development environment Docker Image
+# DockerFile sample
 
 
-
-# Dockerfile command
+## Dockerfile command
 
 ```bash
 # docker file build
@@ -17,7 +16,7 @@ docker push chung10/python3:1.0
 
 
 
-# images command
+## images command
 ```bash
 # 도커 이미지 목록 확인
 docker images
@@ -34,7 +33,7 @@ docker rmi [이미지id]
 
 ```
 
-# container command
+## container command
 ```bash
 # 동작중인 컨테이너 확인
 docker ps
